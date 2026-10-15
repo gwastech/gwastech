@@ -548,7 +548,7 @@
       const subject = document.getElementById('contact-subject').value;
       const message = document.getElementById('contact-message').value;
 
-      const bodyText = `From: ${name} (${email})\n\n${message}`;
+     const bodyText = `From: ${name} (${email})\n\n${message}`;
       const mailtoUrl = `mailto:gwastech@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
       
       const status = document.getElementById('form-status');
