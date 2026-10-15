@@ -409,8 +409,8 @@
               <span class="font-tech font-bold text-sm uppercase tracking-wider text-white">Email Inquiries</span>
             </div>
             <p class="text-xs text-gray-400 mb-2">Direct inquiries for builds and channel collaborations:</p>
-            <a href="mailto:contact@gwastech.com" class="text-cyan-400 hover:text-white font-tech font-bold text-sm sm:text-base transition">
-              contact@gwastech.com
+            <a href="mailto:gwastech@gmail.com" class="text-cyan-400 hover:text-white font-tech font-bold text-sm sm:text-base transition break-all">
+              gwastech@gmail.com
             </a>
           </div>
 
@@ -548,7 +548,7 @@
       const subject = document.getElementById('contact-subject').value;
       const message = document.getElementById('contact-message').value;
 
-     const bodyText = `From: ${name} (${email})\n\n${message}`;
+      const bodyText = `From: ${name} (${email})\n\n${message}`;
       const mailtoUrl = `mailto:gwastech@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
       
       const status = document.getElementById('form-status');
